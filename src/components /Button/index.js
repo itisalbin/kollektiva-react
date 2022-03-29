@@ -1,11 +1,14 @@
 import React from "react";
-import "./button.scss";
+import "./index.scss";
 // import PropTypes from 'prop-types';
 
-const Button = ({handleClick, backgroundColor, text }) => {
-    return (
-        <button onClick={handleClick} className="btn" style={{backgroundColor:backgroundColor}} >{text}</button>
-    );
+const Button = ({ handleClick, text }) => {
+  return (
+      //Handleclick ej definerad
+    <button onClick={handleClick} className="btn">
+      {text}
+    </button>
+  );
 };
 
 export default Button;
