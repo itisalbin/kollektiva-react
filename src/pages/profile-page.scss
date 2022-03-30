@@ -1,0 +1,37 @@
+.profile-page{
+
+    h5, .welcome-paragraph{
+        text-align: left;
+        font-size: 2rem;
+        margin: 0;
+    }
+    .welcome-paragraph
+    {
+        margin-bottom: 20px;
+    }
+
+    .container{
+        display: grid;
+        grid-template-columns: 1fr 4fr;
+    }
+    .content-container{
+        padding: 80px;
+
+    }
+    .menu-container{
+        background-color: rgb(218, 214, 214);
+    }
+    .client-card-container{
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 33px;
+    }
+    .flex-container{
+        display: flex;
+    }
+    .client-preview-card{
+        margin: 20px;
+    }
+
+
+}
