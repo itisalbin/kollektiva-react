@@ -1,0 +1,29 @@
+.client-card {
+  height: 400px;
+  width: 360px;
+  background-color: rgb(204, 199, 199);
+
+  img{
+      width: 360px;
+  }
+  div{
+      height: 49px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  }
+
+  .client-heading {
+    font-weight: bold;
+    text-align: left;
+  }
+   .client-p {
+    text-align: left;
+  }
+  .rent{
+      text-align: right;
+  }
+  p{
+      margin: 0;
+  }
+}
