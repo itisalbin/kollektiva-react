@@ -4,7 +4,7 @@ import "./index.scss";
 
 const TextInput = ({ name, id, value, lableText }) => {
   return (
-    <div>
+    <div className="text-input">
       <label className="" for={id}>
         {lableText}
       </label>

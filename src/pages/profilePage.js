@@ -1,6 +1,13 @@
 import React from "react";
 import ClientPreviewCard from "../components /ClientPreviewCard";
 import NumbersOnProfile from "../components /NumbersOnProfile";
+import ProfileMenuItem from "../components /ProfileMenuItem";
+import ContactCard from "../components /ContactCard";
+import MessageIcon from "../Assets/Images/messages.svg";
+import FamilyIcon from "../Assets/Images/family.svg";
+import HouseIcon from "../Assets/Images/house.svg";
+import SettingsIcon from "../Assets/Images/settings.svg";
+
 import "./profile-page.scss";
 
 const ProfilePage = () => {
@@ -8,7 +15,15 @@ const ProfilePage = () => {
     <div className="profile-page">
       <div className="container">
         <div className="menu-container">
-          <p>meny</p>
+          <p>Meny</p>
+          <ProfileMenuItem itemIcon={HouseIcon} text="Mina annonser" />
+          <ProfileMenuItem itemIcon={FamilyIcon} text="Hyresgäster" />
+          <ProfileMenuItem itemIcon={MessageIcon} text="Meddelanden" />
+          <ProfileMenuItem itemIcon={SettingsIcon} text="Inställningar" />
+          <ContactCard 
+          textOne="Kontakat din handläggare"
+          textTwo="Erik Eriksson"
+          />
         </div>
         <div className="content-container">
           <h5 className="headline">Hej Göran</h5>
