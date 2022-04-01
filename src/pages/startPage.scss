@@ -1,17 +1,13 @@
+@import "../variables.scss";
+
+
 .header-container {
-  background-color: #515050;
+  background-color: $base-color;
   height: 400px;
   padding-left: 150px;
   padding-right: 150px;
   padding-top: 150px;
 
-  .search-field {
-    background-color: rgb(192, 189, 189);
-    width: 400px;
-    height: 350px;
-    margin-right: 20px;
-    padding-top: 50px;
-  }
 }
 .about-container {
   display: flex;
