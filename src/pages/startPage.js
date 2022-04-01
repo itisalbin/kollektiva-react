@@ -1,24 +1,33 @@
 import React from "react";
 import "./startPage.scss";
-import TextInput from "../components /TextInput";
 import Button from "../components /Button";
-
 import UspCard from "../components /UspCard";
 import Image from "../Assets/Images/dummy1.webp";
+import DummyImage from "../Assets/Images/dummy2.webp";
 
 const StartPage = () => {
   return (
     <div>
-      <h5>This is our startpage</h5>
-      <div className="search-container">
-        <div className="search-field">
-          <TextInput lableText="Område" name="area" />
-          <TextInput lableText="Område" name="area" />
-          <Button
-          text="Sök"
-          />
-        </div>
+      <div className="header-container">
+        <h1>Välkommen till Kollektiva</h1>
+        <p>
+          Den trygga tjänsten för dig som hyresvärd och hyresgäst att hyra ut
+          din bostad på ett säkert sätt.
+        </p>
+        <Button text="Skapa annons" />
       </div>
+      <section className="about-container">
+        <div className="text-container">
+          <h2>Om Kollektiva</h2>
+          <p>
+            Kollektiva är en plattform där du som hyresvärd kan hyra ut ditt hus
+            på ett tryggt och säkert sätt. Vi på Kollektiva hjälper dig att
+            hitta den bästa matchningen för dig som hyresvärd och hyresgäst. Så
+            att båda partnerna blir nöjda och glada.
+          </p>
+        </div>
+        <img src={DummyImage} alt="a house"></img>
+      </section>
       <div className="usp-container">
         <UspCard
           alt="Alt"
