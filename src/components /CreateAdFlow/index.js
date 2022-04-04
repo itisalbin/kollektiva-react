@@ -2,8 +2,6 @@ import React from "react";
 import Button from "../Button";
 import "./createAdFlow.scss";
 
-//import PropTypes from "prop-types";
-
 const CreateAdFlow = () => {
   return (
     <div className="count-container">

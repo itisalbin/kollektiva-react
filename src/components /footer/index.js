@@ -6,13 +6,18 @@ import "./footer.scss";
 const Footer = () => {
   return (
     <footer className="footer">
-        <p>KOLLEKTIVA</p>
-        <p>Kontaktuppgifter</p>
-        <ContactCard
-       textOne="Kontakta oss:"
-       textTwo="0725-175555"
-       
-       />
+      <h5>KOLLEKTIVA</h5>
+      <div className="line"></div>
+      <div className="grid-container">
+        <div className="link-container">
+          <p>Information</p>
+          <p>Kontaktuppgifter</p>
+          <p>Sociala medier</p>
+        </div>
+        <div className="card-container">
+          <ContactCard textOne="Kontakta oss:" textTwo="0725-175555" />
+        </div>
+      </div>
     </footer>
   );
 };
