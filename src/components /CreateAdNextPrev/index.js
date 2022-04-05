@@ -1,6 +1,4 @@
 import React from "react";
-import { Link } from "@reach/router";
-
 import "./CreateAdNextPrev.scss";
 
 const CreateAdNextPrev = ({ backTo, abort, link, text }) => {
