@@ -8,7 +8,7 @@ import "./createAd.scss";
 const CreateAd05 = () => {
   return (
     <div className="create-ad-page">
-      <ProgressCreateAd nr="4" />
+      <ProgressCreateAd nr="5" />
       <div className="grid-container">
         <CreateAdMenu />
         <div>
@@ -17,7 +17,7 @@ const CreateAd05 = () => {
         </div>
       </div>
       <CreateAdNextPrev 
-      link="/create-ad5"
+      link="/create-ad6"
       text="Nästa"
       />
     </div>

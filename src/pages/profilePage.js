@@ -10,10 +10,14 @@ import ProfileImage from "../Assets/Images/dummy2.webp";
 
 
 import "./profile-page.scss";
+import ProgressCreateAd from "../components /ProgressCreateAd";
 
 const ProfilePage = () => {
   return (
     <div className="profile-page">
+      <ProgressCreateAd
+      nr="9"
+      />
       <div className="container">
         <div className="menu-container">
           <p>Meny</p>

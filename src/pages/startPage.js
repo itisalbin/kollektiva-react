@@ -15,7 +15,7 @@ const StartPage = () => {
           din bostad på ett säkert sätt.
         </p>
         <Button text="Skapa annons" />
-      </div>
+         </div>
       <section className="about-container">
         <div className="text-container">
           <h2>Om Kollektiva</h2>
