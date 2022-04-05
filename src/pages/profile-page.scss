@@ -32,10 +32,32 @@
     }
     .flex-container{
         display: flex;
+        
+        .profile-container{
+            background-color: beige;
+            padding: 40px;
+            width: 320px;
+            height: 520px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            h5{
+                text-align: center;
+            }
+
+            img{
+                border-radius: 100%;
+                height: 210px;
+                width: 210px;
+            }
+        }
+        .profile-text-container{
+            text-align: left;
+            margin-top: 40px;
+        }
     }
     .client-preview-card{
         margin: 20px;
     }
-
-
 }

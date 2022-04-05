@@ -1,12 +1,13 @@
 import React from "react";
 import ClientPreviewCard from "../components /ClientPreviewCard";
-import NumbersOnProfile from "../components /NumbersOnProfile";
 import ProfileMenuItem from "../components /ProfileMenuItem";
 import ContactCard from "../components /ContactCard";
 import MessageIcon from "../Assets/Images/messages.svg";
 import FamilyIcon from "../Assets/Images/family.svg";
 import HouseIcon from "../Assets/Images/house.svg";
 import SettingsIcon from "../Assets/Images/settings.svg";
+import ProfileImage from "../Assets/Images/dummy2.webp";
+
 
 import "./profile-page.scss";
 
@@ -20,9 +21,9 @@ const ProfilePage = () => {
           <ProfileMenuItem itemIcon={FamilyIcon} text="Hyresgäster" />
           <ProfileMenuItem itemIcon={MessageIcon} text="Meddelanden" />
           <ProfileMenuItem itemIcon={SettingsIcon} text="Inställningar" />
-          <ContactCard 
-          textOne="Kontakat din handläggare"
-          textTwo="Erik Eriksson"
+          <ContactCard
+            textOne="Kontakat din handläggare"
+            textTwo="Erik Eriksson"
           />
         </div>
         <div className="content-container">
@@ -32,13 +33,16 @@ const ProfilePage = () => {
             bra hyresgäst för dig!
           </p>
           <div className="flex-container">
-            <div>
-              <NumbersOnProfile number="1" text="Du har en annons ute" />
-              <NumbersOnProfile number="5" text="Du har fem nya meddelanden" />
-              <NumbersOnProfile
-                number="4"
-                text="Du har fyra matchningar som Kollektiva tror passar dig."
-              />
+            <div className="profile-container">
+              <h5>Profil</h5>
+              <img src={ProfileImage} alt="En bild"></img>
+              <a href="/">Uppdatera foto</a>
+              <div className="profile-text-container">
+                <p>Bekräftad identitet</p>
+                <p>E-postadress</p>
+                <p>Bank-ID</p>
+                <p>Telefonnummer</p>
+              </div>
             </div>
             <div>
               <ClientPreviewCard
