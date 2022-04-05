@@ -1,0 +1,18 @@
+.create-ad-next-prev{
+    height: 67px ;
+    width: 100%;
+    background-color: rgb(230, 228, 228);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    a{
+        font-size: 1.5rem;
+        margin-left: 20px;
+    }
+
+    .abort{
+        margin-right: 40px;
+        font-size: 1.5rem;
+    }
+}
