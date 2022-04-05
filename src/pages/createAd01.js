@@ -1,11 +1,18 @@
 import React from "react";
 import RadioCheckboxInput from "../components /RadioCheckboxInput";
+import TextInput from "../components /TextInput";
 import Button from "../components /Button";
+import ProgressCreateAd from "../components /ProgressCreateAd";
 
-const CreateAd = () => {
+
+//import PropTypes from "prop-types";
+
+const CreateAd01 = () => {
   return (
     <div>
-      <form>
+        <ProgressCreateAd
+        nr="1"/>
+      
         <RadioCheckboxInput
           type="checkbox"
           name="villa"
@@ -23,9 +30,8 @@ const CreateAd = () => {
         <Button
         text="Nästa"
         />
-      </form>
     </div>
   );
 };
 
-export default CreateAd;
+export default CreateAd01;
