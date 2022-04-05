@@ -8,24 +8,30 @@ import CreateAd01 from "./pages/createAd01";
 
 import ProfilePage from "./pages/profilePage";
 import Navbar from "./components /Navbar";
+import CreateAd02 from "./pages/createAd02";
+import CreateAd03 from "./pages/createAd03";
 
 function App() {
   return (
-
     <div className="App">
       <nav>
         <Link to="/">Home</Link>
         <Link to="/create-ad">Create Ad</Link>
+        <Link to="/create-ad2">Create Ad2</Link>
+        <Link to="/create-ad3">Create Ad3</Link>
         <Link to="/profile">My profile</Link>
       </nav>
-      <Navbar/>
+      <Navbar />
       <Router>
         <CreateAd01 path="/create-ad" />
-        <ProfilePage path="/profile"/>
+        <CreateAd02 path="/create-ad2" />
+        <CreateAd03 path="/create-ad3" />
+
+        <ProfilePage path="/profile" />
         <StartPage path="/" />
         <NotFound default />
       </Router>
-      <Footer/>
+      <Footer />
     </div>
   );
 }

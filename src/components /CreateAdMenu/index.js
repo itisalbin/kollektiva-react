@@ -1,7 +1,7 @@
 import React from "react";
 import "./CreateAdMenu.scss";
 
-const CreateAdMenu = ({}) => {
+const CreateAdMenu = () => {
   return (
     <div className="create-ad-menu">
 

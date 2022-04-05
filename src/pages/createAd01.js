@@ -34,7 +34,10 @@ const CreateAd01 = () => {
           <h5>Gör ditt val och tryck på "Nästa"</h5>
         </div>
       </div>
-      <CreateAdNextPrev />
+      <CreateAdNextPrev 
+      link="/create-ad2"
+      text="Nästa"
+      />
     </div>
   );
 };

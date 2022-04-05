@@ -1,17 +1,23 @@
 import React from "react";
-import Button from "../Button";
+import { Link } from "@reach/router";
+
 import "./CreateAdNextPrev.scss";
 
-const CreateAdNextPrev = ({ backTo, abort }) => {
+const CreateAdNextPrev = ({ backTo, abort, link, text }) => {
   return (
     <div className="create-ad-next-prev">
-        <a href={backTo}> Tillbaka</a>
-        <div>
-        <a className="abort" href={abort}> Avbryt</a>
-        <Button
-        text="Nästa"
-        />
+      <a href={backTo}> Tillbaka</a>
+      
+      <div className="flex-container">
+        <a className="abort" href={abort}>
+          Avbryt
+        </a>
+        <div className="btn">
+          <a  href={link}>
+            {text}
+          </a>
         </div>
+      </div>
     </div>
   );
 };
