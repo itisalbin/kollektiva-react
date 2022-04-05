@@ -17,14 +17,14 @@ const CreateAd01 = () => {
           <h3>Vem är du?</h3>
           <div className="input-container">
             <LgInput
-              type="radio"
+              type="checkbox"
               name="villa"
               id="villa"
               value="villa"
               lableText="VILLA"
             />
             <LgInput
-              type="radio"
+              type="checkbox"
               name="hus"
               id="hus"
               value="hus"
