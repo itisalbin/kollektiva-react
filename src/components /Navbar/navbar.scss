@@ -1,0 +1,32 @@
+.navbar {
+  background-color: aqua;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+  img {
+    margin-left: 20px;
+    width: 175px;
+  }
+
+  .link-container {
+    display: flex;
+
+    p {
+      margin-left: 20px;
+      font-weight: bold;
+    }
+  }
+  button{
+      width: 220px;
+      height: 48px;
+      background-color: white;
+      border-radius: 40px;
+      border: none;
+      font-weight: bold;
+      font-size: 1.5rem;
+      margin-right: 20px;
+  }
+}
