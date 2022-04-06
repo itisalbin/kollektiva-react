@@ -43,18 +43,48 @@ const CreateAd02 = () => {
                   value="radhus"
                   lableText="Radhus"
                 />
-                <RadioCheckbox lableText="Parhus" type="checkbox" />
+                <RadioCheckbox
+                  type="checkbox"
+                  name="parhus"
+                  id="parhus"
+                  value="parhus"
+                  lableText="Parhus"
+                />
               </div>
             </div>
             <h3>Hel bostad eller del av bostad?</h3>
             <div className="grid-container-2">
-              <RadioCheckbox lableText="Hela bostaden" type="checkbox" />
-              <RadioCheckbox lableText="Del av bostad" type="checkbox" />
+              <RadioCheckbox
+                type="checkbox"
+                name="Hela_bostaden"
+                id="Hela_bostaden"
+                value="Hela_bostaden"
+                lableText="Hela bostaden"
+              />
+              <RadioCheckbox
+                type="checkbox"
+                name="part"
+                id="part"
+                value="part"
+                lableText="Del av bostad"
+              />
             </div>
             <h3>Möblerad eller omöblerad?</h3>
             <div className="grid-container-2">
-              <RadioCheckbox lableText="Möblerat" type="checkbox" />
-              <RadioCheckbox lableText="Omöblerat" type="checkbox" />
+              <RadioCheckbox
+                type="checkbox"
+                name="Möblerat"
+                id="Möblerat"
+                value="Möblerat"
+                lableText="Möblerat"
+              />
+              <RadioCheckbox
+                type="checkbox"
+                name="Omöblerat"
+                id="Omöblerat"
+                value="Omöblerat"
+                lableText="Omöblerat"
+              />
             </div>
           </form>
         </div>
