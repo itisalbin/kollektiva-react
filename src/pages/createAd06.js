@@ -19,6 +19,7 @@ const CreateAd06 = () => {
       <CreateAdNextPrev 
       link="/create-ad7"
       text="Nästa"
+      backTo="/create-ad5"
       />
     </div>
   );

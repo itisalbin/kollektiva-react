@@ -23,32 +23,35 @@ const CreateAd03 = () => {
             <h3>Vad erbjuder ditt boende?</h3>
             <div className="grid-container-3">
               <div className="grid-item">
-                <RadioCheckbox lableText="Garage" type="checkbox"/>
-                <RadioCheckbox lableText="Tvättmaskin" type="checkbox"/>
-                <RadioCheckbox lableText="Wi-Fi" type="checkbox"/>
-                <RadioCheckbox lableText="Trädgård" type="checkbox"/>
-                <RadioCheckbox lableText="Bubbelpool" type="checkbox"/>
-
+                <RadioCheckbox
+                  lableText="Garage"
+                  type="checkbox"
+                   id="Garage"
+                />
+                <RadioCheckbox lableText="Tvättmaskin" type="checkbox" id="tvättmaskin" />
+                <RadioCheckbox lableText="Wi-Fi" type="checkbox" id="wifi"/>
+                <RadioCheckbox lableText="Trädgård" type="checkbox" id="trädgård"/>
+                <RadioCheckbox lableText="Bubbelpool" type="checkbox" id="bubbelpool"/>
               </div>
               <div className="grid-item">
-              <RadioCheckbox lableText="Dusch" type="checkbox"/>
-                <RadioCheckbox lableText="Torktumlare" type="checkbox"/>
-                <RadioCheckbox lableText="El ingår" type="checkbox"/>
-                <RadioCheckbox lableText="Pool" type="checkbox"/>
-                <RadioCheckbox lableText="Cykelplats" type="checkbox"/>
+                <RadioCheckbox lableText="Dusch" type="checkbox" id="dusch"/>
+                <RadioCheckbox lableText="Torktumlare" type="checkbox" id="torktumlare"/>
+                <RadioCheckbox lableText="El ingår" type="checkbox" id="el"/>
+                <RadioCheckbox lableText="Pool" type="checkbox" id="pool"/>
+                <RadioCheckbox lableText="Cykelplats" type="checkbox" id="cykelplats"/>
               </div>
               <div className="grid-item">
-              <RadioCheckbox lableText="Badkar" type="checkbox"/>
-                <RadioCheckbox lableText="Diskmaskin" type="checkbox"/>
-                <RadioCheckbox lableText="Hemmagym" type="checkbox"/>
-                <RadioCheckbox lableText="Bastu" type="checkbox"/>
-                <RadioCheckbox lableText="Elbilsladdning" type="checkbox"/>
+                <RadioCheckbox lableText="Badkar" type="checkbox" id="badkar"/>
+                <RadioCheckbox lableText="Diskmaskin" type="checkbox" id="diskmaskin"/>
+                <RadioCheckbox lableText="Hemmagym" type="checkbox" id="gym"/>
+                <RadioCheckbox lableText="Bastu" type="checkbox" id="bastu"/>
+                <RadioCheckbox lableText="Elbilsladdning" type="checkbox" id="elbil"/>
               </div>
             </div>
           </div>
         </div>
       </div>
-      <CreateAdNextPrev link="/create-ad4" text="Nästa" />
+      <CreateAdNextPrev link="/create-ad4" text="Nästa" backTo="/create-ad2"/>
     </div>
   );
 };

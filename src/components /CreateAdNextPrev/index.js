@@ -7,7 +7,7 @@ const CreateAdNextPrev = ({ backTo, abort, link, text }) => {
       <a href={backTo}> Tillbaka</a>
       
       <div className="flex-container">
-        <a className="abort" href={abort}>
+        <a className="abort" href="/">
           Avbryt
         </a>
         <div className="btn">

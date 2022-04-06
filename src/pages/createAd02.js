@@ -20,52 +20,24 @@ const CreateAd02 = () => {
           <form>
             <div className="grid-container-2">
               <div className="grid-item">
-                <RadioCheckbox
-                  type="checkbox"
-                  name="villa"
-                  id="villa"
-                  value="villa"
-                  lableText="Villa"
-                />
-                <RadioCheckbox
-                  type="checkbox"
-                  name="stuga"
-                  id="stuga"
-                  value="stuga"
-                  lableText="Stuga"
-                />
+                <RadioCheckbox type="checkbox" id="villa" lableText="Villa" />
+                <RadioCheckbox type="checkbox" id="stuga" lableText="Stuga" />
               </div>
               <div className="grid-item">
-                <RadioCheckbox
-                  type="checkbox"
-                  name="radhus"
-                  id="radhus"
-                  value="radhus"
-                  lableText="Radhus"
-                />
-                <RadioCheckbox
-                  type="checkbox"
-                  name="parhus"
-                  id="parhus"
-                  value="parhus"
-                  lableText="Parhus"
-                />
+                <RadioCheckbox type="checkbox" id="radhus" lableText="Radhus" />
+                <RadioCheckbox type="checkbox" id="parhus" lableText="Parhus" />
               </div>
             </div>
             <h3>Hel bostad eller del av bostad?</h3>
             <div className="grid-container-2">
               <RadioCheckbox
                 type="checkbox"
-                name="Hela_bostaden"
                 id="Hela_bostaden"
-                value="Hela_bostaden"
                 lableText="Hela bostaden"
               />
               <RadioCheckbox
                 type="checkbox"
-                name="part"
                 id="part"
-                value="part"
                 lableText="Del av bostad"
               />
             </div>
@@ -73,23 +45,19 @@ const CreateAd02 = () => {
             <div className="grid-container-2">
               <RadioCheckbox
                 type="checkbox"
-                name="Möblerat"
                 id="Möblerat"
-                value="Möblerat"
                 lableText="Möblerat"
               />
               <RadioCheckbox
                 type="checkbox"
-                name="Omöblerat"
                 id="Omöblerat"
-                value="Omöblerat"
                 lableText="Omöblerat"
               />
             </div>
           </form>
         </div>
       </div>
-      <CreateAdNextPrev link="/create-ad3" text="Nästa" />
+      <CreateAdNextPrev link="/create-ad3" text="Nästa" backTo="/create-ad"/>
     </div>
   );
 };

@@ -10,9 +10,9 @@ const RadioCheckboxInput = ({ name, id, value, lableText, type }) => {
           <input
             className=""
             type={type}
-            name={name}
+            // name={name}
             id={id}
-            value={value}
+            // value={value}
           ></input>
           <label className="four" for={id}>
             {lableText}
