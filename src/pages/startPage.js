@@ -4,18 +4,25 @@ import Button from "../components /Button";
 import UspCard from "../components /UspCard";
 import Image from "../Assets/Images/dummy1.webp";
 import DummyImage from "../Assets/Images/dummy2.webp";
+import ContactCard from "../components /ContactCard";
 
 const StartPage = () => {
   return (
     <div>
       <div className="header-container">
         <h1>Välkommen till Kollektiva</h1>
-        <p>
+        <h3>
           Den trygga tjänsten för dig som hyresvärd och hyresgäst att hyra ut
           din bostad på ett säkert sätt.
-        </p>
-        <Button text="Skapa annons" />
-         </div>
+        </h3>
+        <div className="flex-container">
+          <Button text="Skapa annons" />
+          <div className="circle-arrow"></div>
+        </div>
+        <div className="contact-card">
+          <ContactCard textOne="Kontakta oss" textTwo="0701-66 77 88" />
+        </div>
+      </div>
       <section className="about-container">
         <div className="text-container">
           <h2>Om Kollektiva</h2>
@@ -28,23 +35,26 @@ const StartPage = () => {
         </div>
         <img src={DummyImage} alt="a house"></img>
       </section>
-      <div className="usp-container">
-        <UspCard
-          alt="Alt"
-          text="Skapa en profil som hyresgäst/hyresvärd."
-          uspImage={Image}
-        />
-        <UspCard
-          alt="Alt"
-          text="Ladda upp din bostad som hyresvärd. Anmäl intresse på bostaden du önskar som hyresgäst."
-          uspImage={Image}
-        />
-        <UspCard
-          alt="Alt"
-          text="Matcha med varandra på ett tryggt sätt och flytta in i din nya bostad. "
-          uspImage={Image}
-        />
-      </div>
+      <section className="usp-section">
+        <h3>Såhär funkar kollektiva</h3>
+        <div className="usp-container">
+          <UspCard
+            alt="Alt"
+            text="Skapa en profil som hyresgäst/hyresvärd."
+            uspImage={Image}
+          />
+          <UspCard
+            alt="Alt"
+            text="Ladda upp din bostad som hyresvärd. Anmäl intresse på bostaden du önskar som hyresgäst."
+            uspImage={Image}
+          />
+          <UspCard
+            alt="Alt"
+            text="Matcha med varandra på ett tryggt sätt och flytta in i din nya bostad. "
+            uspImage={Image}
+          />
+        </div>
+      </section>
     </div>
   );
 };

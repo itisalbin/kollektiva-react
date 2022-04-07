@@ -14,9 +14,6 @@ const Footer = () => {
           <p>Kontaktuppgifter</p>
           <p>Sociala medier</p>
         </div>
-        <div className="card-container">
-          <ContactCard textOne="Kontakta oss:" textTwo="0725-175555" />
-        </div>
       </div>
     </footer>
   );

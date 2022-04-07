@@ -1,23 +1,26 @@
 @import "../../variables.scss";
 
 .card{
-    height: 315px;
-    width: 315px;
-    border: black solid 4px;
-    border-radius: 40px;
+    height: 242px;
+    width: 242px;
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-shadow: 2px 2px 2px 2px rgba(190, 192, 190, 0.2);
     img{
         width: 80px;
-        margin-top: 40px;
-        margin-bottom: 24px;
+        margin-left: 83px;
+        margin-top: 20px;
     }
     p{
-        font-size: 1.5rem;
+        font-size: 1rem;
         margin: 0;
     }
     .card-title{
-        font-size: 2rem;
+        font-size: 1rem;
         margin: 0;
-        margin-top: 38px;
 
     }
 }
