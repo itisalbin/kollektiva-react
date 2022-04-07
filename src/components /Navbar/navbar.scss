@@ -18,8 +18,7 @@
       margin-left: 20px;
       font-weight: bold;
     }
-  }
-  button{
+    button {
       width: 220px;
       height: 48px;
       background-color: white;
@@ -28,5 +27,38 @@
       font-weight: bold;
       font-size: 1.5rem;
       margin-right: 20px;
+    }
+    @media only screen and (max-width: 768px) {
+      position: absolute;
+      right: 0;
+      top: 20%;
+      flex-direction: column;
+      background-color: aqua;
+    }
+  }
+  .icon-container {
+    position: relative;
+  }
+
+  .hamburger-icon {
+    height: 40px;
+    display: none;
+
+    // @media only screen and (max-width: 768px) {
+    //   display: inherit;
+    // }
+  }
+  .close-icon {
+    height: 40px;
+    display: none;
+    position: absolute;
+    top: 0;
   }
 }
+// .hidden {
+//   display: inherit;
+
+//   @media only screen and (max-width: 768px) {
+//     display: none;
+//   }
+// }

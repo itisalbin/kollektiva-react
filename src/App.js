@@ -15,6 +15,10 @@ import CreateAd05 from "./pages/createAd05";
 import CreateAd06 from "./pages/createAd06";
 import CreateAd07 from "./pages/createAd07";
 import CreateAd08 from "./pages/createAd08";
+import LogIn from "./pages/login";
+
+import HamburgerIcon from "./Assets/Images/bars-solid.svg";
+import CloseIcon from "./Assets/Images/xmark.svg";
 
 function App() {
   return (
@@ -30,8 +34,10 @@ function App() {
         <Link to="/create-ad7">Create Ad6</Link>
         <Link to="/create-ad8">Create Ad6</Link>
         <Link to="/profile">My profile</Link>
+        <Link to="/login">LogIn</Link>
+
       </nav>
-      <Navbar />
+      <Navbar icon={HamburgerIcon} iconTwo={CloseIcon} />
       <Router>
         <CreateAd01 path="/create-ad" />
         <CreateAd02 path="/create-ad2" />
@@ -41,6 +47,7 @@ function App() {
         <CreateAd06 path="/create-ad6" />
         <CreateAd07 path="/create-ad7" />
         <CreateAd08 path="/create-ad8" />
+        <LogIn path="/login" />
         <ProfilePage path="/profile" />
         <StartPage path="/" />
         <NotFound default />
