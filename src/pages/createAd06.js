@@ -15,6 +15,12 @@ const CreateAd06 = () => {
         <div className="main-container6">
           <h2>Din profil: Ladda upp din bostad</h2>
           <div className="input-container"></div>
+          <h3>Rubrik för ditt boende</h3>
+          <input
+            className="rent-input"
+            type="text"
+            placeholder="Skriv din rubrik här..."
+          ></input>
           <ProfileCard alt="Profilbild" />
         </div>
       </div>
