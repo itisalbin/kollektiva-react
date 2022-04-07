@@ -12,7 +12,7 @@ const CreateAd06 = () => {
       <ProgressCreateAd nr="6" />
       <div className="grid-container">
         <CreateAdMenu />
-        <div className="main-container6">
+        <div className="main-container6 main-container">
           <h2>Din profil: Ladda upp din bostad</h2>
           <div className="input-container"></div>
           <h3>Rubrik för ditt boende</h3>

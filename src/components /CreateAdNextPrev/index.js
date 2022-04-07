@@ -10,7 +10,7 @@ const CreateAdNextPrev = ({ backTo, abort, link, text }) => {
         <a className="abort" href="/">
           Avbryt
         </a>
-        <div className="btn">
+        <div className="next-btn">
           <a  href={link}>
             {text}
           </a>
