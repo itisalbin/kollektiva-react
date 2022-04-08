@@ -8,6 +8,10 @@
   img {
     margin-left: 20px;
     width: 175px;
+
+    @media only screen and (max-width: 768px) {
+      width: 75px;
+    }
   }
 
   .link-container {
@@ -30,14 +34,19 @@
       font-weight: bold;
       font-size: 1.5rem;
       margin-right: 81px;
-      margin-left:15%;
+      margin-left: 15%;
     }
     @media only screen and (max-width: 768px) {
-      position: absolute;
-      right: 0;
-      top: 20%;
       flex-direction: column;
-      background-color: aqua;
+      align-items: flex-end;
+      position: absolute;
+      width: 300px;
+      top: 15%;
+      right: 4%;
+
+      button {
+        margin-right: 0;
+      }
     }
   }
   .icon-container {
@@ -45,14 +54,6 @@
     display: none;
   }
 
-  .hamburger-icon {
-    height: 40px;
-    display: none;
-
-    // @media only screen and (max-width: 768px) {
-    //   display: inherit;
-    // }
-  }
   .close-icon {
     height: 40px;
     display: none;
@@ -60,10 +61,22 @@
     top: 0;
   }
 }
-// .hidden {
-//   display: inherit;
-
-//   @media only screen and (max-width: 768px) {
-//     display: none;
-//   }
-// }
+.mobile-navbar {
+  display: none;
+  @media only screen and (max-width: 768px) {
+    display: flex;
+    flex-direction: column;
+  }
+}
+.desktop-navbar {
+  @media only screen and (max-width: 768px) {
+    display: none;
+  }
+}
+.hamburger-icon {
+  position: absolute;
+  right: 4%;
+  top: 7%;
+  cursor: pointer;
+  z-index: 99;
+}

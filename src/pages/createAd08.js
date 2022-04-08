@@ -1,7 +1,6 @@
 import React from "react";
 import ProgressCreateAd from "../components /ProgressCreateAd";
 import CreateAdNextPrev from "../components /CreateAdNextPrev";
-import CreateAdMenu from "../components /CreateAdMenu";
 
 import "./createAd.scss";
 
