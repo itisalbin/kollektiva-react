@@ -21,10 +21,10 @@ const CreateAd07 = () => {
           </div>
           <img className="main-image" src={Dummy}></img>
           <div className="small-image-container">
-            <img className="supporting-image" src={Dummy}></img>
-            <img className="supporting-image" src={Dummy}></img>
-            <img className="supporting-image" src={Dummy}></img>
-            <img className="supporting-image no-margin" src={Dummy}></img>
+            <img alt="a description" className="supporting-image" src={Dummy}></img>
+            <img alt="a description" className="supporting-image" src={Dummy}></img>
+            <img alt="a description" className="supporting-image" src={Dummy}></img>
+            <img alt="a description" className="supporting-image no-margin" src={Dummy}></img>
           </div>
           <p className="show-all-images">Visa alla bilder...</p>
           <h5>Område: Stockholm, Aspudden</h5>
