@@ -21,14 +21,14 @@ const CreateAd01 = () => {
               name="villa"
               id="villa"
               value="villa"
-              lableText="VILLA"
+              lableText="Hyresvärd"
             />
             <LgInput
               type="checkbox"
               name="hus"
               id="hus"
               value="hus"
-              lableText="HUUUSSS"
+              lableText="Hyresgäst"
             />
           </div>
           <h5>Gör ditt val och tryck på "Nästa"</h5>

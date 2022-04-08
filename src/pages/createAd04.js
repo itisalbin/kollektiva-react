@@ -13,7 +13,7 @@ const CreateAd04 = () => {
       <ProgressCreateAd nr="4" />
       <div className="grid-container">
         <CreateAdMenu />
-        <div className="main-container">
+        <div className="main-container4">
           <h2>Område och adress</h2>
           <div className="search-container">
             <img src={SettingsIcon} alt="En ikon"></img>

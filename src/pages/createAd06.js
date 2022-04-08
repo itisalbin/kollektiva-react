@@ -14,14 +14,15 @@ const CreateAd06 = () => {
         <CreateAdMenu />
         <div className="main-container6 main-container">
           <h2>Din profil: Ladda upp din bostad</h2>
-          <div className="input-container"></div>
           <h3>Rubrik för ditt boende</h3>
           <input
             className="rent-input"
             type="text"
             placeholder="Skriv din rubrik här..."
           ></input>
-          <ProfileCard alt="Profilbild" />
+          <div className="profile-card">
+            <ProfileCard alt="Profilbild" />
+          </div>
         </div>
       </div>
       <CreateAdNextPrev link="/create-ad7" text="Nästa" backTo="/create-ad5" />

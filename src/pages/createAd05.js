@@ -13,7 +13,7 @@ const CreateAd05 = () => {
       <ProgressCreateAd nr="5" />
       <div className="grid-container">
         <CreateAdMenu />
-        <div>
+        <div className="main-container5">
           <h2>Hyra och önskad hyresgäst</h2>
           <div className="">
             <h3>Hur mycket vill du hyra ut för?</h3>

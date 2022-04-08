@@ -2,9 +2,9 @@ import React from "react";
 import "./index.scss";
 //import PropTypes from "prop-types";
 
-const RadioCheckboxInput = ({ name, id, value, lableText, type }) => {
+const RadioCheckboxInput = ({ name, id, value, lableText, type, stylingClass}) => {
   return (
-    <div>
+    <div className={stylingClass}>
       <div className="form">
         <section className="plan">
           <input

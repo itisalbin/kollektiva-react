@@ -1,6 +1,5 @@
 @import "../../variables.scss";
 .lg-input {
- 
   //Ger knapparna en bestämd vidd.
   .four {
     width: 220px;
@@ -32,6 +31,7 @@
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
+    box-shadow: none;
   }
 
   .form .plan input:checked + label {
