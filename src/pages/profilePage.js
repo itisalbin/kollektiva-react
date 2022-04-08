@@ -6,18 +6,15 @@ import MessageIcon from "../Assets/Images/messages.svg";
 import FamilyIcon from "../Assets/Images/family.svg";
 import HouseIcon from "../Assets/Images/house.svg";
 import SettingsIcon from "../Assets/Images/settings.svg";
-import ProfileImage from "../Assets/Images/dummy2.webp";
-
-
+import ProfileCard from "../components /ProfileCard";
+import CreateAdNextPrev from "../components /CreateAdNextPrev";
 import "./profile-page.scss";
 import ProgressCreateAd from "../components /ProgressCreateAd";
 
 const ProfilePage = () => {
   return (
     <div className="profile-page">
-      <ProgressCreateAd
-      nr="9"
-      />
+      <ProgressCreateAd nr="9" />
       <div className="container">
         <div className="menu-container">
           <p>Meny</p>
@@ -26,29 +23,21 @@ const ProfilePage = () => {
           <ProfileMenuItem itemIcon={MessageIcon} text="Meddelanden" />
           <ProfileMenuItem itemIcon={SettingsIcon} text="Inställningar" />
           <ContactCard
-            textOne="Kontakat din handläggare"
-            textTwo="Erik Eriksson"
+            textOne="Kontakta din handläggare:"
+            textTwo="Sahar Eriksson"
           />
         </div>
         <div className="content-container">
-          <h5 className="headline">Hej Göran</h5>
-          <p className="welcome-paragraph">
-            Nu har du laddat upp din bostadsannons. Nästa steg är att hitta en
-            bra hyresgäst för dig!
-          </p>
           <div className="flex-container">
             <div className="profile-container">
-              <h5>Profil</h5>
-              <img src={ProfileImage} alt="En bild"></img>
-              <a href="/">Uppdatera foto</a>
-              <div className="profile-text-container">
-                <p>Bekräftad identitet</p>
-                <p>E-postadress</p>
-                <p>Bank-ID</p>
-                <p>Telefonnummer</p>
-              </div>
+              <ProfileCard />
             </div>
-            <div>
+            <div className="add-container">
+              <h5 className="headline">Hej Göran!</h5>
+              <p className="welcome-paragraph">
+                Nu har du laddat upp din bostadsannons. Nästa steg är att hitta
+                en bra hyresgäst för dig!
+              </p>
               <ClientPreviewCard
                 topText="Gå till din annons"
                 cardHeadline="Detta är en rubrik"
@@ -57,7 +46,7 @@ const ProfilePage = () => {
               />
             </div>
           </div>
-          <h5>Dina hyresgäst matchningar:</h5>
+          <h3>Här ser du dina hyresgäster som Kollektiva matchat till dig:</h3>
           <div className="client-card-container">
             <ClientPreviewCard
               className="client-preview-card"
@@ -90,6 +79,9 @@ const ProfilePage = () => {
           </div>
         </div>
       </div>
+<CreateAdNextPrev
+text="Ändra"
+/>
     </div>
   );
 };

@@ -31,8 +31,8 @@ function App() {
         <Link to="/create-ad4">Create Ad4</Link>
         <Link to="/create-ad5">Create Ad5</Link>
         <Link to="/create-ad6">Create Ad6</Link>
-        <Link to="/create-ad7">Create Ad6</Link>
-        <Link to="/create-ad8">Create Ad6</Link>
+        <Link to="/create-ad7">Create Ad7</Link>
+        <Link to="/create-ad8">Create Ad8</Link>
         <Link to="/profile">My profile</Link>
         <Link to="/login">LogIn</Link>
 

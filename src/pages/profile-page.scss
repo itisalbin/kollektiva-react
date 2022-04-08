@@ -1,63 +1,58 @@
 @import "../variables.scss";
 
-.profile-page{
+.content-container {
+  margin: 80px;
+  margin-right: 260px;
 
-    h5, .welcome-paragraph{
-        text-align: left;
-        font-size: 2rem;
-        margin: 0;
+  h3 {
+    font-size: 2rem;
+    width: 60%;
+    margin-top: 80px;
+  }
+}
+.profile-page {
+  .add-container {
+      margin-top: 40px;
+    h5 {
+      text-align: left;
+      margin: 0;
+      font-size: 2rem;
     }
-    .welcome-paragraph
-    {
-        margin-bottom: 20px;
-    }
+  }
+  .welcome-paragraph {
+    margin-bottom: 20px;
+    font-weight: 1rem;
+    text-align: left;
+    margin-bottom: 40px;
+  }
 
-    .container{
-        display: grid;
-        grid-template-columns: 1fr 4fr;
-    }
-    .content-container{
-        padding: 80px;
-
-    }
-    .menu-container{
-        background-color: rgb(218, 214, 214);
+  .container {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+  }
+  .menu-container {
+    background-color: rgb(218, 214, 214);
     padding-left: 20px;
+  }
+  .client-card-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 33px;
+  }
+  .flex-container {
+    display: flex;
+    justify-content: space-between;
 
+    .profile-text-container {
+      text-align: left;
+      margin-top: 40px;
     }
-    .client-card-container{
-        display: flex;
-        flex-wrap: wrap;
-        margin-top: 33px;
-    }
-    .flex-container{
-        display: flex;
-        
-        .profile-container{
-            background-color: beige;
-            padding: 40px;
-            width: 320px;
-            height: 520px;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-
-            h5{
-                text-align: center;
-            }
-
-            img{
-                border-radius: 100%;
-                height: 210px;
-                width: 210px;
-            }
-        }
-        .profile-text-container{
-            text-align: left;
-            margin-top: 40px;
-        }
-    }
-    .client-preview-card{
-        margin: 20px;
-    }
+  }
+  .add-container {
+    width: 354px;
+  }
+  .client-preview-card {
+    //margin: 20px;
+  }
 }

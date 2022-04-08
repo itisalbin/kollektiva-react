@@ -5,8 +5,10 @@ import UspCard from "../components /UspCard";
 import Image from "../Assets/Images/dummy1.webp";
 import DummyImage from "../Assets/Images/dummy2.webp";
 import ContactCard from "../components /ContactCard";
+import { navigate } from "@reach/router";
 
 const StartPage = () => {
+
   return (
     <div>
       <div className="header-container">
@@ -16,7 +18,7 @@ const StartPage = () => {
           din bostad på ett säkert sätt.
         </h3>
         <div className="flex-container">
-          <Button text="Skapa annons" />
+          <Button text="Skapa annons" handleClick={() => navigate("/create-ad")}/>
           <div className="circle-arrow"></div>
         </div>
         <div className="contact-card">

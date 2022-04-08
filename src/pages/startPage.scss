@@ -9,7 +9,7 @@
 }
 
 .header-container {
-  background-color: $base-color;
+  background-color: $orange;
   height: 650px;
   padding-left: 150px;
   padding-right: 150px;
@@ -56,13 +56,12 @@
 }
 .about-container {
   display: flex;
-  flex-wrap: wrap;
-  height: 600px;
-
+  min-height: 600px;
+  
   .text-container {
     width: 40vw;
     padding: 70px;
-
+    
     h2 {
       text-align: left;
       font-size: 3rem;
@@ -74,10 +73,14 @@
       font-weight: 400;
     }
   }
-
+  
   img {
     width: 50vw;
     object-fit: cover;
+  }
+  @media only screen and (max-width: 768px) {
+    flex-wrap: wrap;
+  
   }
 }
 .usp-section {

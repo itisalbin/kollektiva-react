@@ -9,16 +9,13 @@ const CreateAd08 = () => {
   return (
     <div className="create-ad-page">
       <ProgressCreateAd nr="8" />
-      <div className="grid-container">
-        <CreateAdMenu />
-        <div>
+      <div className="main-container8">
           <h2>Du är klar!</h2>
-          <div className="input-container"></div>
-        </div>
+          <div className="done-circle"></div>
       </div>
       <CreateAdNextPrev 
       link="/profile"
-      text="Nästa"
+      text="Gå till profil"
       backTo="/create-ad7"
       />
     </div>

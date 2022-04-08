@@ -18,9 +18,7 @@ const ClientPreviewCard = ({
       </div>
       <img src={Image} alt={alt}></img>
       <p className="client-heading">{cardHeadline}</p>
-
       <p className="client-p">{cardDecptiption}</p>
-
       <p className="client-p rent">{rent}kr/månad</p>
     </div>
   );

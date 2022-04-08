@@ -65,6 +65,17 @@ h3 {
 .main-container6 {
   padding: 74px;
 }
+.main-container7 {
+  margin-left: 90px;
+  margin-right: 210px;
+  h5 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-align: left;
+    margin: 0;
+    margin-bottom: 16px;
+  }
+}
 .headline-container {
   display: flex;
   justify-content: center;
@@ -72,14 +83,14 @@ h3 {
 
   p {
     font-size: 1.5rem;
-    margin: 22px;
+    margin: 10px;
   }
   .bold {
     font-weight: bold;
   }
 }
 .main-image {
-  width: 67%;
+  width: 100%;
   height: 369px;
   border-radius: 20px;
 }
@@ -92,5 +103,50 @@ h3 {
   width: 180px;
   height: 134px;
   border-radius: 20px;
-  margin: 20px;
+  margin-top: 36px;
+  margin-right: 40px;
+}
+.no-margin {
+  margin-right: 0;
+}
+.show-all-images {
+  text-align: right;
+  text-decoration: underline;
+}
+.flex-container-line {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+  height: 10px;
+  background-color: aqua;
+}
+.line {
+  height: 5px;
+  max-width: 67%;
+  background-color: black;
+}
+.description-container {
+  height: 280px;
+
+  h3 {
+    font-size: 1.5rem;
+  }
+  li {
+    text-align: left;
+    font-size: 1.5rem;
+  }
+}
+.main-container8 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 74vh;
+
+}
+.done-circle {
+  height: 343px;
+  width: 343px;
+  border-radius: 50%;
+  background-color: grey;
+  margin-top: 61px ;
 }
