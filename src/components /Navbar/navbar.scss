@@ -13,10 +13,14 @@
 
   .link-container {
     display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
 
-    p {
+    a {
       margin-left: 20px;
-      font-weight: bold;
+      text-decoration: none;
+      color: black;
     }
     button {
       width: 220px;
@@ -27,6 +31,7 @@
       font-weight: bold;
       font-size: 1.5rem;
       margin-right: 20px;
+      margin-left:15%;
     }
     @media only screen and (max-width: 768px) {
       position: absolute;
@@ -38,6 +43,7 @@
   }
   .icon-container {
     position: relative;
+    display: none;
   }
 
   .hamburger-icon {

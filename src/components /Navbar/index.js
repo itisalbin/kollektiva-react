@@ -7,9 +7,9 @@ const Navbar = ({ alt, icon, alt2, iconTwo }) => {
     <div className="navbar">
       <img alt={alt} src={Logo}></img>
       <div className="link-container hidden">
-        <p>Hyr ut bostad</p>
-        <p>Sök bostad</p>
-        <p>Så fungerar Kollektiva</p>
+        <a href="/create-ad">Hyr ut bostad</a>
+        <a href="/">Sök bostad</a>
+        <a href="/">Så fungerar Kollektiva</a>
         <button>Logga in</button>
       </div>
       <div className="icon-container">
