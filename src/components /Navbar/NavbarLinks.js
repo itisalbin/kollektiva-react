@@ -1,6 +1,5 @@
 import React from "react";
 import "./navbar.scss";
-import Logo from "../../Assets/Images/KOLLEKTIVA.png";
 
 const NavbarLinks = () => {
     return (
