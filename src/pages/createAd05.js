@@ -8,7 +8,6 @@ import SettingsIcon from "../Assets/Images/settings.svg";
 import "./createAd.scss";
 import "./createAd5.scss";
 
-
 const CreateAd05 = () => {
   return (
     <div className="create-ad-page">
