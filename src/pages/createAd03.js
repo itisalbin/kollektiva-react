@@ -20,7 +20,7 @@ const CreateAd03 = () => {
             <h3>Hur många rum har din bostad?</h3>
             <TextField placeholder="Ange antal rum..." />
             <h3>Hur stor är din bostad?</h3>
-            <TextField placeholder="Ange antal kvadratmeter..." />
+            <TextField placeholder="Ange antal m2..." />
           </div>
           <h3>Vad erbjuder ditt boende?</h3>
           <div className="grid-container-3">

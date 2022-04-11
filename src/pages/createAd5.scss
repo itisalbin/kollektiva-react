@@ -7,6 +7,9 @@
   h2 {
     text-align: center;
   }
+  @media only screen and (max-width: 768px) {
+   margin: 40px;
+  }
 }
 
 .grid-container-5 {
@@ -18,6 +21,14 @@
   }
   .grid-item {
     gap: 20px;
+  }
+  @media only screen and (max-width: 768px) {
+    display: flex;
+    flex-direction: column;
+
+    .grid-item {
+      gap: 0px;
+    }
   }
 }
 

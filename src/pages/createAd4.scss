@@ -3,6 +3,12 @@
 .main-container4 {
   min-height: 74vh;
   max-width: 900px;
+
+  @media only screen and (max-width: 768px) {
+    margin: 40px;
+    min-height: 69vh;
+
+  }
 }
 
 .search-container {
@@ -11,12 +17,11 @@
   border: black solid 1px;
   border-radius: 50px;
 
-  img {
-    margin-left: 20px;
-    height: 38px;
-  }
   input {
     border: none;
     height: 50px;
   }
+}
+.search-icon{
+  margin-left: 15px;
 }
