@@ -2,7 +2,6 @@ import React from "react";
 import ProgressCreateAd from "../components /ProgressCreateAd";
 import CreateAdNextPrev from "../components /CreateAdNextPrev";
 import CreateAdMenu from "../components /CreateAdMenu";
-import SettingsIcon from "../Assets/Images/settings.svg";
 import { BsSearch } from "react-icons/bs";
 
 

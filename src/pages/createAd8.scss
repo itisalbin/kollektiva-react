@@ -1,4 +1,5 @@
-//Create-Ad8
+@import "../variables.scss";
+
 .main-container8 {
     display: flex;
     flex-direction: column;
@@ -9,6 +10,12 @@
     height: 343px;
     width: 343px;
     border-radius: 50%;
-    background-color: grey;
+    background-color: $light-blue ;
     margin-top: 61px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .check-icon{
+    fill: $dark-blue;
   }
