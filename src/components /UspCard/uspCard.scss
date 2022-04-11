@@ -12,4 +12,7 @@
     font-size: 1.5rem;
     text-align: left;
   }
+  @media only screen and (max-width: 768px) {
+   background-color: $middle-light-blue;
+  }
 }

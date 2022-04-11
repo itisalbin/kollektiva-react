@@ -112,6 +112,8 @@
     flex-wrap: wrap;
     flex-direction: column-reverse;
     align-items: center;
+    border-radius: 20px;
+    margin: 16px;
   }
 }
 .usp-section {
@@ -121,6 +123,20 @@
 
   h3 {
     font-size: 2rem;
+  }
+  @media only screen and (max-width: 768px) {
+    background-color: $middle-light-blue;
+    margin: 16px;
+
+    border-radius: 20px;
+
+    h3 {
+      margin: 0;
+      padding-top: 24px;
+      padding-bottom: 24px;
+
+      text-align: center;
+    }
   }
 }
 
