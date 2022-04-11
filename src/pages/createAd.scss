@@ -26,6 +26,9 @@ h2 {
   h5 {
     font-size: 1.5rem;
   }
+  @media only screen and (max-width: 768px) {
+    margin: 40px;
+  }
 }
 .grid-container {
   display: grid;

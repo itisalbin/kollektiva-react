@@ -1,7 +1,8 @@
+@import "../../variables.scss";
+
 .create-ad-next-prev {
   height: 67px;
   width: 100%;
-  background-color: rgb(230, 228, 228);
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -35,15 +36,18 @@
     font-size: 1.5rem;
     border-radius: 40px;
     border: none;
+
     @media only screen and (max-width: 768px) {
       width: 120px;
+      background-color: $dark-blue;
     }
-
+    
     a {
       text-decoration: none;
       color: black;
-
+      
       @media only screen and (max-width: 768px) {
+        color: white;
         margin-left: 0;
       }
     }
