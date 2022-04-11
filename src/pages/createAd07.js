@@ -5,6 +5,8 @@ import CreateAdMenu from "../components /CreateAdMenu";
 import Dummy from "../Assets/Images/dummy2.webp";
 
 import "./createAd.scss";
+import "./createAd7.scss";
+
 
 const CreateAd07 = () => {
   return (

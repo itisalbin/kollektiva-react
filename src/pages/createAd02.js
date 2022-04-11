@@ -5,6 +5,8 @@ import CreateAdMenu from "../components /CreateAdMenu";
 import RadioCheckbox from "../components /RadioCheckboxInput";
 
 import "./createAd.scss";
+import "./createAd2.scss";
+
 
 const CreateAd02 = () => {
   return (

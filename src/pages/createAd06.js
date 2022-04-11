@@ -5,6 +5,8 @@ import CreateAdMenu from "../components /CreateAdMenu";
 import ProfileCard from "../components /ProfileCard";
 
 import "./createAd.scss";
+import "./createAd6.scss";
+
 
 const CreateAd06 = () => {
   return (
