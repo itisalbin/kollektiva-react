@@ -11,7 +11,7 @@ const CreateAd02 = () => {
     <div className="create-ad-page">
       <ProgressCreateAd nr="2" />
       <div className="grid-container">
-        <CreateAdMenu />
+        <CreateAdMenu index="1" />
         <div className="main-container">
           <h2>Basinformation om boende</h2>
           <div className="input-container"></div>
@@ -29,34 +29,18 @@ const CreateAd02 = () => {
             </div>
             <h3>Hel bostad eller del av bostad?</h3>
             <div className="grid-container-2">
-              <RadioCheckbox
-                type="checkbox"
-                id="Hela_bostaden"
-                lableText="Hela bostaden"
-              />
-              <RadioCheckbox
-                type="checkbox"
-                id="part"
-                lableText="Del av bostad"
-              />
+              <RadioCheckbox type="checkbox" id="Hela_bostaden" lableText="Hela bostaden" />
+              <RadioCheckbox type="checkbox" id="part" lableText="Del av bostad" />
             </div>
             <h3>Möblerad eller omöblerad?</h3>
             <div className="grid-container-2">
-              <RadioCheckbox
-                type="checkbox"
-                id="Möblerat"
-                lableText="Möblerat"
-              />
-              <RadioCheckbox
-                type="checkbox"
-                id="Omöblerat"
-                lableText="Omöblerat"
-              />
+              <RadioCheckbox type="checkbox" id="Möblerat" lableText="Möblerat" />
+              <RadioCheckbox type="checkbox" id="Omöblerat" lableText="Omöblerat" />
             </div>
           </form>
         </div>
       </div>
-      <CreateAdNextPrev link="/create-ad3" text="Nästa" backTo="/create-ad"/>
+      <CreateAdNextPrev link="/create-ad3" text="Nästa" backTo="/create-ad" />
     </div>
   );
 };

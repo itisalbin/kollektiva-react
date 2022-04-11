@@ -9,14 +9,10 @@ const CreateAd08 = () => {
     <div className="create-ad-page">
       <ProgressCreateAd nr="8" />
       <div className="main-container8">
-          <h2>Du är klar!</h2>
-          <div className="done-circle"></div>
+        <h2>Du är klar!</h2>
+        <div className="done-circle"></div>
       </div>
-      <CreateAdNextPrev 
-      link="/profile"
-      text="Gå till profil"
-      backTo="/create-ad7"
-      />
+      <CreateAdNextPrev link="/profile" text="Gå till profil" backTo="/create-ad7" />
     </div>
   );
 };

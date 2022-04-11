@@ -11,15 +11,11 @@ const CreateAd06 = () => {
     <div className="create-ad-page">
       <ProgressCreateAd nr="6" />
       <div className="grid-container">
-        <CreateAdMenu />
+        <CreateAdMenu index="5" />
         <div className="main-container6 main-container">
           <h2>Din profil: Ladda upp din bostad</h2>
           <h3>Rubrik för ditt boende</h3>
-          <input
-            className="rent-input"
-            type="text"
-            placeholder="Skriv din rubrik här..."
-          ></input>
+          <input className="rent-input" type="text" placeholder="Skriv din rubrik här..."></input>
           <div className="profile-card">
             <ProfileCard alt="Profilbild" />
           </div>

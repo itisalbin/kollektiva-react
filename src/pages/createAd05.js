@@ -12,16 +12,12 @@ const CreateAd05 = () => {
     <div className="create-ad-page">
       <ProgressCreateAd nr="5" />
       <div className="grid-container">
-        <CreateAdMenu />
+        <CreateAdMenu index="4" />
         <div className="main-container5">
           <h2>Hyra och önskad hyresgäst</h2>
           <div className="">
             <h3>Hur mycket vill du hyra ut för?</h3>
-            <input
-              className="rent-input"
-              type="text"
-              placeholder="Skriv din hyra..."
-            ></input>
+            <input className="rent-input" type="text" placeholder="Skriv din hyra..."></input>
 
             <h3>Hur många år vill du hyra ut?</h3>
             <div className="grid-container-5">
@@ -39,47 +35,19 @@ const CreateAd05 = () => {
             <h3>Önskemål på typ av hyresgäst?</h3>
             <div className="grid-container-5">
               <div className="grid-item">
-                <RadioCheckbox
-                  lableText="Student"
-                  type="checkbox"
-                  id="student"
-                />
+                <RadioCheckbox lableText="Student" type="checkbox" id="student" />
                 <RadioCheckbox lableText="Familj" type="checkbox" id="familj" />
-                <RadioCheckbox
-                  lableText="Flytta in omgående"
-                  type="checkbox"
-                  id="snabb"
-                />
+                <RadioCheckbox lableText="Flytta in omgående" type="checkbox" id="snabb" />
               </div>
               <div className="grid-item">
-                <RadioCheckbox
-                  lableText="Ensamstående"
-                  type="checkbox"
-                  id="ensam"
-                />
-                <RadioCheckbox
-                  lableText="Kollektiv"
-                  type="checkbox"
-                  id="kollektiv"
-                />
-                <RadioCheckbox
-                  lableText="Kortidsgäst"
-                  type="checkbox"
-                  id="kort"
-                />
+                <RadioCheckbox lableText="Ensamstående" type="checkbox" id="ensam" />
+                <RadioCheckbox lableText="Kollektiv" type="checkbox" id="kollektiv" />
+                <RadioCheckbox lableText="Kortidsgäst" type="checkbox" id="kort" />
               </div>
               <div className="grid-item">
                 <RadioCheckbox lableText="Par" type="checkbox" id="par" />
-                <RadioCheckbox
-                  lableText="Småbarnsfamilj"
-                  type="checkbox"
-                  id="småbarn"
-                />
-                <RadioCheckbox
-                  lableText="Långtidsgäst"
-                  type="checkbox"
-                  id="lång"
-                />
+                <RadioCheckbox lableText="Småbarnsfamilj" type="checkbox" id="småbarn" />
+                <RadioCheckbox lableText="Långtidsgäst" type="checkbox" id="lång" />
               </div>
             </div>
             <h3>Djur tillåtet?</h3>
@@ -119,7 +87,7 @@ const CreateAd05 = () => {
           </div>
         </div>
       </div>
-      <CreateAdNextPrev link="/create-ad6" text="Nästa" backTo="/create-ad4"/>
+      <CreateAdNextPrev link="/create-ad6" text="Nästa" backTo="/create-ad4" />
     </div>
   );
 };
