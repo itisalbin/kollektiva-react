@@ -1,19 +1,22 @@
 @import "../../variables.scss";
 
-.text-input{
-    display: flex;
-    flex-direction: column;
+.text-input {
+  display: flex;
+  flex-direction: column;
 
-    input{
-        height: 48px;
-        border-radius: 50px;
-        font-size: 1.5rem;
-        color: black;
-        border: black 1px solid;
-        padding-left: 20px;
-        width: 60%;
+  input {
+    height: 48px;
+    border-radius: 50px;
+    font-size: 1.5rem;
+    color: black;
+    border: black 1px solid;
+    padding-left: 20px;
+    width: 60%;
+    @media only screen and (max-width: 768px) {
+      width: 83%;
     }
-    label{
-        text-align: start;
-    }
+  }
+  label {
+    text-align: start;
+  }
 }

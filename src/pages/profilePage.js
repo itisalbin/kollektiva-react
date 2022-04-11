@@ -10,6 +10,8 @@ import ProfileCard from "../components /ProfileCard";
 import CreateAdNextPrev from "../components /CreateAdNextPrev";
 import "./profile-page.scss";
 import ProgressCreateAd from "../components /ProgressCreateAd";
+import { AiOutlineHome } from "react-icons/ai";
+
 
 const ProfilePage = () => {
   return (
@@ -18,7 +20,7 @@ const ProfilePage = () => {
       <div className="container">
         <div className="menu-container">
           <p>Meny</p>
-          <ProfileMenuItem itemIcon={HouseIcon} text="Mina annonser" />
+          <ProfileMenuItem itemIcon={HouseIcon} text="Mina annonser"           />
           <ProfileMenuItem itemIcon={FamilyIcon} text="Hyresgäster" />
           <ProfileMenuItem itemIcon={MessageIcon} text="Meddelanden" />
           <ProfileMenuItem itemIcon={SettingsIcon} text="Inställningar" />

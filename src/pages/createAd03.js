@@ -16,12 +16,14 @@ const CreateAd03 = () => {
         <div>
           <h2>Storlek och bekvämligheter</h2>
           <div className="">
+            <div className="text-field-container">
             <h3>Hur många rum har din bostad?</h3>
             <TextField placeholder="Ange antal rum..." />
             <h3>Hur stor är din bostad?</h3>
             <TextField placeholder="Ange antal kvadratmeter..." />
-            <h3>Vad erbjuder ditt boende?</h3>
+            </div>
             <div className="grid-container-3">
+            <h3>Vad erbjuder ditt boende?</h3>
               <div className="grid-item">
                 <RadioCheckbox
                   lableText="Garage"
