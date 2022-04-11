@@ -6,6 +6,8 @@ import Logo from "../../Assets/Images/KOLLEKTIVA.png";
 const DesktopNavbar = () => {
   return (
     <div className="desktop-navbar">
+      <img alt="KOllektiva" src={Logo}></img>
+
       <NavbarLinks />
     </div>
   );

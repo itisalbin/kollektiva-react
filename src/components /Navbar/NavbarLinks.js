@@ -4,8 +4,7 @@ import Logo from "../../Assets/Images/KOLLEKTIVA.png";
 
 const NavbarLinks = () => {
     return (
-      <div className="navbar">
-        <img alt="KOllektiva" src={Logo}></img>
+      <div className="navbar-links">
         <div className="link-container hidden">
           <a href="/create-ad">Hyr ut bostad</a>
           <a href="/">Sök bostad</a>
