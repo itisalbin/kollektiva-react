@@ -6,6 +6,8 @@ import RadioCheckbox from "../components /RadioCheckboxInput";
 import SettingsIcon from "../Assets/Images/settings.svg";
 
 import "./createAd.scss";
+import "./createAd5.scss";
+
 
 const CreateAd05 = () => {
   return (

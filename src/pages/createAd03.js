@@ -6,6 +6,8 @@ import TextField from "../components /TextInput";
 import RadioCheckbox from "../components /RadioCheckboxInput";
 
 import "./createAd.scss";
+import "./createAd3.scss";
+
 
 const CreateAd03 = () => {
   return (

@@ -3,6 +3,7 @@ import ProgressCreateAd from "../components /ProgressCreateAd";
 import CreateAdNextPrev from "../components /CreateAdNextPrev";
 
 import "./createAd.scss";
+import "./createAd8.scss";
 
 const CreateAd08 = () => {
   return (
