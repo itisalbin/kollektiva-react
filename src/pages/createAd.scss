@@ -1,3 +1,8 @@
+h2{
+  @media only screen and (max-width: 768px) {
+   font-size: 2rem;
+  }
+}
 .input-container {
   width: 100%;
   display: flex;
@@ -26,15 +31,9 @@
     flex-direction: column;
   }
 }
-//Create-Ad2
-.grid-container-2 {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  justify-items: start;
-}
-//Create-Ad3
-.text-field-container{
 
+//Create-Ad3
+.text-field-container {
   @media only screen and (max-width: 768px) {
     display: flex;
     flex-direction: column;

@@ -20,7 +20,7 @@ import LogIn from "./pages/login";
 function App() {
   return (
     <div className="App">
-      <nav>
+      <nav className="dummy-menu">
         <Link to="/">Home</Link>
         <Link to="/create-ad">Create Ad</Link>
         <Link to="/create-ad2">Create Ad2</Link>
