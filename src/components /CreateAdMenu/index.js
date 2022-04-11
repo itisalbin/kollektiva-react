@@ -1,7 +1,15 @@
 import React from "react";
 import "./CreateAdMenu.scss";
 
-const headings = ["Page 1", "Page 2", "Page 3", "Page 4", "Page 5", "Page 6", "Page 7"];
+const headings = [
+  "Hyresvärd/hyresgäst",
+  "Basinformation om boende",
+  "Storlek och bekvämligheter",
+  "Område & adress",
+  "Hyra och önskad hyresgäst",
+  "Din profil: ladda upp din bostad",
+  "Förhandsgranska",
+];
 
 const CreateAdMenu = ({ index }) => {
   const tags = [];
