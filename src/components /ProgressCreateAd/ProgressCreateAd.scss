@@ -1,16 +1,16 @@
-.progress-create-ad{
-    height: 42px ;
-    width: 100%;
-    background-color: rgb(230, 228, 228);
-    
-    p{
-        margin: 0;
-        text-align: left;
-        padding-left: 20px;
-        padding-top: 5px;
-        font-size: 1.5rem;
-    }
-    @media only screen and (max-width: 768px) {
-       margin-top: 60px;
-      }
+.progress-create-ad {
+  height: 42px;
+  width: 100%;
+  background-color: rgb(230, 228, 228);
+
+  p {
+    margin: 0;
+    text-align: left;
+    padding-left: 20px;
+    padding-top: 5px;
+    font-size: 1.5rem;
+  }
+  @media only screen and (max-width: 768px) {
+    margin-top: 60px;
+  }
 }

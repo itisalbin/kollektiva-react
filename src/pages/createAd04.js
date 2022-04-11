@@ -7,7 +7,6 @@ import SettingsIcon from "../Assets/Images/settings.svg";
 import "./createAd.scss";
 import "./createAd4.scss";
 
-
 const CreateAd04 = () => {
   return (
     <div className="create-ad-page">

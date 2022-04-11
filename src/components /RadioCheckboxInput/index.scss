@@ -1,67 +1,67 @@
 @import "../../variables.scss";
 
 .page-content {
-    max-width: 850px;
-    width: 100vw;
-    margin: 0 auto;
-    display: flex;
-    justify-content: center;
+  max-width: 850px;
+  width: 100vw;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
 }
-.col{
-    flex-direction: column;
+.col {
+  flex-direction: column;
 }
 //Ger knapparna en bestämd vidd.
 .four {
-    width: 250px;
-    height: 50px;
-    margin: 10px;
-    margin-bottom: 48px;
-    border-radius: 50px;
+  width: 250px;
+  height: 50px;
+  margin: 10px;
+  //margin-bottom: 48px;
+  border-radius: 50px;
 }
 
 /* FORM */
 .form .plan input {
-    display: none;
+  display: none;
 }
 .plan {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
-.wrap{
-    flex-wrap: wrap;
+.wrap {
+  flex-wrap: wrap;
 }
 
 .form label {
-    position: relative;
-    color: rgb(1, 1, 1);
-    box-shadow: 0px 4px 2px 3px rgba(123, 124, 123, 0.2);
-    font-size: 24px;
-    font-weight: 600;
-    text-align: center;
-    height: 50px;
-    line-height: 40px;
-    display: block;
-    cursor: pointer;
-    border: 3px solid transparent;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
+  position: relative;
+  color: rgb(1, 1, 1);
+  box-shadow: 0px 4px 2px 3px rgba(123, 124, 123, 0.2);
+  font-size: 24px;
+  font-weight: 600;
+  text-align: center;
+  height: 50px;
+  line-height: 40px;
+  display: block;
+  cursor: pointer;
+  border: 3px solid transparent;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 .form .plan input:checked + label {
-    border: 3px solid #333;
-    background-color: #2fcc71;
+  border: 3px solid #333;
+  background-color: #2fcc71;
 }
 
 .form .plan input:checked + label:after {
-    width: 40px;
-    height: 40px;
-    line-height: 40px;
-    border-radius: 100%;
-    border: 2px solid #333;
-    background-color: #2fcc71;
-    z-index: 999;
-    position: absolute;
-    top: -10px;
-    right: -10px;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  border-radius: 100%;
+  border: 2px solid #333;
+  background-color: #2fcc71;
+  z-index: 999;
+  position: absolute;
+  top: -10px;
+  right: -10px;
 }
