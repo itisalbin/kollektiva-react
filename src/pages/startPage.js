@@ -6,6 +6,8 @@ import Image from "../Assets/Images/dummy1.webp";
 import DummyImage from "../Assets/Images/dummy2.webp";
 import ContactCard from "../components /ContactCard";
 import { navigate } from "@reach/router";
+import { BsChevronDown } from "react-icons/bs";
+
 
 const StartPage = () => {
 
@@ -19,7 +21,9 @@ const StartPage = () => {
         </h3>
         <div className="flex-container">
           <Button text="Skapa annons" handleClick={() => navigate("/create-ad")}/>
-          <div className="circle-arrow"></div>
+          <div className="circle-arrow">
+            <BsChevronDown size="40px"/>
+          </div>
         </div>
         <div className="contact-card">
           <ContactCard textOne="Kontakta oss" textTwo="0701-66 77 88" />

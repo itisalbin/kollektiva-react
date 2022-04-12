@@ -1,7 +1,9 @@
 import React from "react";
 import "./index.scss";
+import { BsChevronDown } from "react-icons/bs";
 
-const LgInput = ({ name, id, value, lableText, type }) => {
+
+const LgInput = ({ name, id, value, icon, type, title }) => {
   return (
     <div className="lg-input">
       <div className="form">
@@ -14,10 +16,11 @@ const LgInput = ({ name, id, value, lableText, type }) => {
             value={value}
           ></input>
           <label className="four" for={id}>
-            {lableText}
+            {icon}
           </label>
         </section>
       </div>
+      <h5>{title}</h5>
     </div>
   );
 };

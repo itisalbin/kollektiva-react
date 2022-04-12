@@ -3,6 +3,8 @@ import LgInput from "../components /LgInput";
 import ProgressCreateAd from "../components /ProgressCreateAd";
 import CreateAdNextPrev from "../components /CreateAdNextPrev";
 import CreateAdMenu from "../components /CreateAdMenu";
+import { BsHouseDoorFill } from "react-icons/bs";
+import { BsPeople } from "react-icons/bs";
 
 import "./createAd.scss";
 
@@ -16,8 +18,23 @@ const CreateAd01 = () => {
           <h2>Hyresvärd/Hyresgäst</h2>
           <h3>Vem är du?</h3>
           <div className="input-container">
-            <LgInput type="checkbox" name="villa" id="villa" value="villa" lableText="Hyresvärd" />
-            <LgInput type="checkbox" name="hus" id="hus" value="hus" lableText="Hyresgäst" />
+            <LgInput
+              type="checkbox"
+              name="Hyresvärd"
+              id="Hyresvärd"
+              value="Hyresvärd"
+              title="Hyresvärd"
+              icon={<BsHouseDoorFill className="lg-icon" size="100px"/>}
+            />
+            <LgInput
+              type="checkbox"
+              name="hus"
+              id="hus"
+              value="hus"
+              title="Hyresgäst"
+
+              icon={<BsPeople className="lg-icon" size="107px" />}
+            />
           </div>
           <h5>Gör ditt val och tryck på "Nästa"</h5>
         </div>
