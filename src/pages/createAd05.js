@@ -4,6 +4,8 @@ import CreateAdNextPrev from "../components /CreateAdNextPrev";
 import CreateAdMenu from "../components /CreateAdMenu";
 import RadioCheckbox from "../components /RadioCheckboxInput";
 import SettingsIcon from "../Assets/Images/settings.svg";
+import { AiOutlineQuestionCircle } from "react-icons/ai";
+
 
 import "./createAd.scss";
 import "./createAd5.scss";
@@ -74,7 +76,7 @@ const CreateAd05 = () => {
             </div>
             <div className="flex-container">
               <h3>Behöver du hjälp med att hitta en hyresgäst?</h3>
-              <img src={SettingsIcon} alt=""></img>
+              <AiOutlineQuestionCircle size="30px"/>
             </div>
             <div className="grid-container-5">
               <div className="grid-item">

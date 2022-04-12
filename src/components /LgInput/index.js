@@ -1,6 +1,5 @@
 import React from "react";
 import "./index.scss";
-import { BsChevronDown } from "react-icons/bs";
 
 
 const LgInput = ({ name, id, value, icon, type, title }) => {
