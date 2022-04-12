@@ -26,7 +26,7 @@ const MobileNavbar = () => {
   );
   return (
     <div className="mobile-navbar">
-      <img alt="KOllektiva" src={Logo}></img>
+      <img className="navbar-logo" alt="KOllektiva" src={Logo}></img>
       <div className="profile-hamburger-icons">
         <CgProfile size="35px" className="profile-icon"/>
         {open ? close : hamburger}

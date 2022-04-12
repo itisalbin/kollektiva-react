@@ -8,7 +8,7 @@ const ProfileCard = ({ textOne, textTwo, src, alt }) => {
   return (
     <div className="profile-card">
       <p className="card-title">Profilbild</p>
-      <img src={Contact} alt={alt}></img>
+      <img className="profile-img" src={Contact} alt={alt}></img>
       <a href="/">Uppdatera foto</a>
       <p className="confirmed">Bekräftad identitet</p>
       <p>E-postadress</p>

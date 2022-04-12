@@ -44,7 +44,7 @@
         margin-right: 0;
         margin-top: 5%;
       }
-      a{
+      a {
         margin-bottom: 5px;
       }
     }
@@ -69,7 +69,7 @@
   z-index: 99;
 }
 
-.profile-icon{
+.profile-icon {
   position: absolute;
   right: 55px;
   z-index: 99;
@@ -80,17 +80,12 @@
   background-color: $light-blue;
   height: 44px;
 
-  
-  img {
+  .navbar-logo {
     margin-left: 20px;
-    width: 175px;
-    
-    @media only screen and (max-width: 768px) {
-      width: 129px;
-    }
+    width: 129px;
   }
-  
-  .profile-hamburger-icons{
+
+  .profile-hamburger-icons {
     display: flex;
     align-items: center;
     justify-content: flex-end;
@@ -110,9 +105,8 @@
     display: none;
   }
 
-  img {
+  .navbar-logo {
     padding-left: 24px;
     width: 175px;
-    height: 38px;
   }
 }
