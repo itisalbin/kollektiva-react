@@ -3,7 +3,7 @@ import "./startPage.scss";
 import Button from "../components /Button";
 import UspCard from "../components /UspCard";
 import Image from "../Assets/Images/dummy1.webp";
-import DummyImage from "../Assets/Images/dummy2.webp";
+import DummyImage from "../Assets/Images/house.png";
 import ContactCard from "../components /ContactCard";
 import { navigate } from "@reach/router";
 import { BsChevronDown } from "react-icons/bs";
