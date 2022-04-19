@@ -1,5 +1,7 @@
 import React from "react";
 import "./login.scss";
+import { IoIosArrowForward } from "react-icons/io";
+
 
 const LogIn = () => {
   return (
@@ -15,15 +17,19 @@ const LogIn = () => {
           <h3>Välj inloggning:</h3>
         <div className="btn">
           <a href="/">Bank-ID</a>
+          <IoIosArrowForward/>
         </div>
         <div className="btn">
           <a href="/">Mobilt Bank-ID</a>
+          <IoIosArrowForward/>
         </div>
         <div className="btn">
           <a href="/">E-postadress</a>
+          <IoIosArrowForward/>
         </div>
         <div className="btn">
           <a href="/">Ring oss så hjälper vi dig</a>
+          <IoIosArrowForward/>
         </div>
       </div>
     </div>

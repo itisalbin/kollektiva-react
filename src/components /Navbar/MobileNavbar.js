@@ -13,7 +13,7 @@ const MobileNavbar = () => {
   const hamburger = (
     <FiMenu
       className="hamburger-icon"
-      size="40px"
+      size="26px"
       onClick={() => setOpen(!open)}
     />
   );
@@ -28,7 +28,7 @@ const MobileNavbar = () => {
     <div className="mobile-navbar">
       <img className="navbar-logo" alt="KOllektiva" src={Logo}></img>
       <div className="profile-hamburger-icons">
-        <CgProfile size="35px" className="profile-icon"/>
+        <CgProfile size="26px" className="profile-icon"/>
         {open ? close : hamburger}
       </div>
       {open && <NavbarLinks />}
