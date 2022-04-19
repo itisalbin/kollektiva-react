@@ -36,7 +36,8 @@ const CreateAd01 = () => {
               icon={<BsPeople className="lg-icon" size="107px" />}
             />
           </div>
-          <h5>Gör ditt val och tryck på "Nästa"</h5>
+          <h5>Gör ett val för att gå vidare</h5>
+          <p>När du trycker på nästa sparas dina val automatiskt</p>
         </div>
       </div>
       <CreateAdNextPrev link="/create-ad2" text="Nästa" backTo="/" />
