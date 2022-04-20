@@ -4,6 +4,7 @@
   margin-right: 25%;
   max-width: 900px;
   text-align: left;
+ // margin-bottom: 70px;
   h2 {
     text-align: center;
   }
@@ -21,6 +22,7 @@
 .grid-container-5 {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+  margin-bottom: 50px;
 
   img {
     margin-left: 50px;
@@ -28,7 +30,7 @@
   .grid-item {
     gap: 20px;
   }
-  @media only screen and (max-width: 768px) {
+  @media only screen and (max-width: 1065px) {
     display: flex;
     flex-direction: column;
 

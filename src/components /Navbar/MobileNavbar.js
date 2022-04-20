@@ -20,7 +20,7 @@ const MobileNavbar = () => {
   const close = (
     <GrClose
       className="hamburger-icon"
-      size="40px"
+      size="26px"
       onClick={() => setOpen(!open)}
     />
   );
