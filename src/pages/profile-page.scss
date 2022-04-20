@@ -1,58 +1,57 @@
 @import "../variables.scss";
 
-.content-container {
-  margin: 80px;
-  margin-right: 260px;
+.profile-page {
+  margin-top: 40px;
+
+  .content-container {
+    margin-left: 30px;
+    margin-bottom: 200px;
+  }
+
+  h2 {
+  }
 
   h3 {
-    font-size: 2rem;
+    font-size: 1.5rem;
     width: 60%;
-    margin-top: 80px;
+    margin-left: 0;
   }
-}
-.profile-page {
-  .add-container {
-    margin-top: 40px;
-    h5 {
-      text-align: left;
-      margin: 0;
-      font-size: 2rem;
-    }
+
+  h5 {
+    font-size: 1.5rem;
+    text-align: left;
+    margin: 20px 0 10px 0;
   }
   .welcome-paragraph {
     margin-bottom: 20px;
     font-weight: 1rem;
     text-align: left;
     margin-bottom: 40px;
+    width: 50%;
   }
-
   .container {
     display: grid;
     grid-template-columns: 1fr 4fr;
   }
   .menu-container {
-    background-color: rgb(218, 214, 214);
-    padding-left: 20px;
+    background-color: white;
+    padding-top: 20px;
   }
-  .client-card-container {
+  .top-flex-container {
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+    max-width: 800px;
+  }
+  .top-cards-container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+  }
+  .bottom-card-container {
+    display: flex;
     flex-wrap: wrap;
-    margin-top: 33px;
-  }
-  .flex-container {
-    display: flex;
-    justify-content: space-between;
-
-    .profile-text-container {
-      text-align: left;
-      margin-top: 40px;
-    }
-  }
-  .add-container {
-    width: 354px;
-  }
-  .client-preview-card {
-    //margin: 20px;
+    gap: 40px;
+    max-width: 800px;
   }
 }

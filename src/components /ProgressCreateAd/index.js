@@ -4,7 +4,7 @@ import "./ProgressCreateAd.scss";
 const ProgressCreateAd = ({ nr }) => {
   return (
     <div className="progress-create-ad">
-        <p>Steg {nr} av 9</p>
+      <p>Steg {nr} av 7</p>
     </div>
   );
 };

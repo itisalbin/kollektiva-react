@@ -12,34 +12,31 @@ import "./profile-page.scss";
 import ProgressCreateAd from "../components /ProgressCreateAd";
 import { AiOutlineHome } from "react-icons/ai";
 
-
 const ProfilePage = () => {
   return (
     <div className="profile-page">
-      <ProgressCreateAd nr="9" />
       <div className="container">
         <div className="menu-container">
-          <p>Meny</p>
-          <ProfileMenuItem itemIcon={HouseIcon} text="Mina annonser"           />
+          <ProfileMenuItem itemIcon={HouseIcon} text="Mina annonser" />
           <ProfileMenuItem itemIcon={FamilyIcon} text="Hyresgäster" />
           <ProfileMenuItem itemIcon={MessageIcon} text="Meddelanden" />
           <ProfileMenuItem itemIcon={SettingsIcon} text="Inställningar" />
-          <ContactCard
-            textOne="Kontakta din handläggare:"
-            textTwo="Sahar Eriksson"
-          />
+          <ContactCard textOne="Kontakta din handläggare:" textTwo="Sahar Eriksson" />
         </div>
         <div className="content-container">
-          <div className="flex-container">
-            <div className="profile-container">
-              <ProfileCard />
-            </div>
-            <div className="add-container">
-              <h5 className="headline">Hej Göran!</h5>
-              <p className="welcome-paragraph">
-                Nu har du laddat upp din bostadsannons. Nästa steg är att hitta
-                en bra hyresgäst för dig!
-              </p>
+          <div className="top-flex-container">
+            <h2>Mina annonser</h2>
+            <h5>Hej Göran!</h5>
+            <p className="welcome-paragraph">
+              Nu har du laddat upp din bostadsannons. Nästa steg är att hitta en bra hyresgäst för dig!
+            </p>
+            <div className="top-cards-container">
+              <ClientPreviewCard
+                topText="Gå till din annons"
+                cardHeadline="Detta är en rubrik"
+                cardDecptiption="Här står ngt..."
+                rent="15.000"
+              />
               <ClientPreviewCard
                 topText="Gå till din annons"
                 cardHeadline="Detta är en rubrik"
@@ -49,7 +46,7 @@ const ProfilePage = () => {
             </div>
           </div>
           <h3>Här ser du dina hyresgäster som Kollektiva matchat till dig:</h3>
-          <div className="client-card-container">
+          <div className="bottom-card-container">
             <ClientPreviewCard
               className="client-preview-card"
               topText="Läs mer om Erik"
@@ -81,9 +78,7 @@ const ProfilePage = () => {
           </div>
         </div>
       </div>
-<CreateAdNextPrev
-text="Ändra"
-/>
+      <CreateAdNextPrev text="Ändra" />
     </div>
   );
 };

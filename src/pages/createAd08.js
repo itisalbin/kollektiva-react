@@ -9,18 +9,13 @@ import "./createAd8.scss";
 const CreateAd08 = () => {
   return (
     <div className="create-ad-page">
-      <ProgressCreateAd nr="8" />
       <div className="main-container8">
         <h2>Du är klar!</h2>
         <div className="done-circle">
           <AiOutlineCheck className="check-icon" size="280px" />
         </div>
       </div>
-      <CreateAdNextPrev
-        link="/profile"
-        text="Gå till profil"
-        backTo="/create-ad7"
-      />
+      <CreateAdNextPrev link="/profile" text="Gå till profil" backTo="/create-ad7" />
     </div>
   );
 };
