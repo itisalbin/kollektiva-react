@@ -16,7 +16,6 @@ import CreateAd07 from "./pages/createAd07";
 import CreateAd08 from "./pages/createAd08";
 import LogIn from "./pages/login";
 
-
 function App() {
   return (
     <div className="App">
@@ -34,9 +33,7 @@ function App() {
         <Link to="/login">LogIn</Link>
       </nav>
       <nav>
-
-      <Navbar  />
-
+        <Navbar />
       </nav>
       <Router>
         <CreateAd01 path="/create-ad" />
