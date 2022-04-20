@@ -31,7 +31,7 @@ const Footer = () => {
                 v
               </button>
             </div>
-            <div className={`collapsable ${firstSubIsOpen ? "footer-sub-open" : null}`}>
+            <div className={`collapsable ${firstSubIsOpen ? null : "footer-sub-open"}`}>
               <a href="">Så här fungerar Kollektiva</a>
               <a href="">Hyr ut din bostad</a>
               <a href="">Sök bostad</a>
@@ -46,7 +46,7 @@ const Footer = () => {
                 v
               </button>
             </div>
-            <div className={`collapsable ${secondSubIsOpen ? "footer-sub-open" : null}`}>
+            <div className={`collapsable ${secondSubIsOpen ? null : "footer-sub-open"}`}>
               <a href="">Lämna feedback</a>
               <a href="">info@kollektiva.se</a>
             </div>
@@ -59,7 +59,7 @@ const Footer = () => {
                 v
               </button>
             </div>
-            <div className={`collapsable ${thirdSubIsOpen ? "footer-sub-open" : null}`}>
+            <div className={`collapsable ${thirdSubIsOpen ? null : "footer-sub-open"}`}>
               <a href="">LinkedIn</a>
               <a href="">Facebook</a>
               <a href="">Instagram</a>
