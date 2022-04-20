@@ -3,13 +3,14 @@
   display: flex;
   justify-content: space-between;
   margin-bottom: 30px;
+  margin-right: 20px;
 
-  @media only screen and (max-width: 768px) {
+  @media only screen and (max-width: 880px) {
     flex-direction: column;
   }
   .grid-item {
     gap: 20px;
-    @media only screen and (max-width: 768px) {
+    @media only screen and (max-width: 880px) {
       align-items: center;
       gap: 0px;
     }
