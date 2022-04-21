@@ -12,7 +12,7 @@ const ClientPreviewCard = ({ topText, cardHeadline, cardDecptiption, rent, image
       <img src={image} alt={alt}></img>
       <p className="client-heading">{cardHeadline}</p>
       <p className="client-p">{cardDecptiption}</p>
-      <p className="client-p rent">{rent}kr/månad</p>
+      <p className="client-p rent">{rent}</p>
     </div>
   );
 };

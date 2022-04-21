@@ -19,7 +19,7 @@ import LogIn from "./pages/login";
 function App() {
   return (
     <div className="App">
-      <nav className="dummy-menu">
+      {/* <nav className="dummy-menu">
         <Link to="/">Home</Link>
         <Link to="/create-ad">Create Ad</Link>
         <Link to="/create-ad2">Create Ad2</Link>
@@ -31,7 +31,7 @@ function App() {
         <Link to="/create-ad8">Create Ad8</Link>
         <Link to="/profile">My profile</Link>
         <Link to="/login">LogIn</Link>
-      </nav>
+      </nav> */}
       <nav>
         <Navbar />
       </nav>

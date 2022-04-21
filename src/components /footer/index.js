@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import ContactCard from "../ContactCard";
 import "./footer.scss";
+import DownArrow from "../../Assets/Images/down-arrow.svg";
 //import PropTypes from "prop-types";
 
 const Footer = () => {
@@ -28,7 +29,7 @@ const Footer = () => {
             <div className="sub-header">
               <p>Om Kollektiva</p>
               <button className="button-om" onClick={toggleFirst}>
-                v
+                <img src={DownArrow}></img>
               </button>
             </div>
             <div className={`collapsable ${firstSubIsOpen ? null : "footer-sub-open"}`}>
@@ -43,7 +44,7 @@ const Footer = () => {
             <div className="sub-header">
               <p>Support</p>
               <button className="button-support" onClick={toggleSecond}>
-                v
+                <img src={DownArrow}></img>
               </button>
             </div>
             <div className={`collapsable ${secondSubIsOpen ? null : "footer-sub-open"}`}>
@@ -56,7 +57,7 @@ const Footer = () => {
             <div className="sub-header">
               <p>Följ oss</p>
               <button className="button-follow" onClick={toggleThird}>
-                v
+                <img src={DownArrow}></img>
               </button>
             </div>
             <div className={`collapsable ${thirdSubIsOpen ? null : "footer-sub-open"}`}>

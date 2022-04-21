@@ -8,6 +8,9 @@ import HouseIcon from "../Assets/Images/house.svg";
 import Couple from "../Assets/Images/couple.webp";
 import DadGirl from "../Assets/Images/dad_girl.webp";
 import MotherIpad from "../Assets/Images/mother_ipad.webp";
+import WomanChild from "../Assets/Images/woman_child.jpg";
+import Kitchen from "../Assets/Images/kitchen.jpg";
+import AddIcon from "../Assets/Images/add-icon.jpg";
 import SettingsIcon from "../Assets/Images/settings.svg";
 import ProfileCard from "../components /ProfileCard";
 import CreateAdNextPrev from "../components /CreateAdNextPrev";
@@ -37,51 +40,48 @@ const ProfilePage = () => {
               <ClientPreviewCard
                 topText="Gå till din annons"
                 cardHeadline="Detta är en rubrik"
-                cardDecptiption="Här står ngt..."
-                rent="15.000"
+                cardDecptiption="Beskrivning"
+                image={Kitchen}
+                rent="15.000kr/månad"
               />
               <div className="second-card">
-                <ClientPreviewCard
-                  topText="Gå till din annons"
-                  cardHeadline="Detta är en rubrik"
-                  cardDecptiption="Här står ngt..."
-                  rent="15.000"
-                />
+                <ClientPreviewCard topText="Skapa ny annons" image={AddIcon} />
               </div>
             </div>
           </div>
-          <h3>Här ser du dina hyresgäster som Kollektiva matchat till dig:</h3>
           <div className="bottom-cards-container">
+            <h3>Här ser du dina hyresgäster som Kollektiva matchat till dig:</h3>
             <ClientPreviewCard
               className="client-preview-card"
-              topText="Läs mer om Erik"
+              topText="Läs mer om Pelle"
               cardHeadline="Detta är en rubrik"
-              cardDecptiption="Här står ngt om mig"
+              cardDecptiption="Beskrivning"
               image={DadGirl}
-              rent="15.000"
+              rent="15.000kr/månad"
             />
             <ClientPreviewCard
               className="client-preview-card"
-              topText="Läs mer om Erik"
+              topText="Läs mer om familjen Albinsson"
               cardHeadline="Detta är en rubrik"
-              cardDecptiption="Här står ngt om mig"
+              cardDecptiption="Beskrivning"
               image={Couple}
-              rent="15.000"
+              rent="15.000kr/månad"
             />
             <ClientPreviewCard
               className="client-preview-card"
-              topText="Läs mer om Erik"
+              topText="Läs mer om Lena"
               cardHeadline="Detta är en rubrik"
-              cardDecptiption="Här står ngt om mig"
-              rent="15.000"
+              cardDecptiption="Beskrivning"
+              image={WomanChild}
+              rent="15.000kr/månad"
             />
             <ClientPreviewCard
               className="client-preview-card"
-              topText="Läs mer om Erik"
+              topText="Läs mer om familjen Eliasson"
               cardHeadline="Detta är en rubrik"
-              cardDecptiption="Här står ngt om mig"
+              cardDecptiption="Beskrivning"
               image={MotherIpad}
-              rent="15.000"
+              rent="15.000kr/månad"
             />
           </div>
         </div>

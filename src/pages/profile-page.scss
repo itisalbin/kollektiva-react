@@ -10,8 +10,9 @@
 
   h3 {
     font-size: 1.5rem;
-    width: 60%;
+    width: 100%;
     margin-left: 0;
+    font-weight: 600;
   }
 
   h5 {
@@ -58,7 +59,11 @@
       justify-content: center;
     }
     .content-container {
-      margin: auto;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: 0;
     }
     .menu-container {
       display: none;
@@ -68,22 +73,26 @@
       display: none;
     }
 
-    .top-cards-container {
-      flex-direction: column;
-      align-items: center;
+    .top-flex-container {
+      margin: auto;
+      width: 360px;
+    }
+
+    .bottom-flex-container {
+      margin: auto;
+      width: 360px;
     }
 
     .bottom-cards-container {
       flex-direction: column;
-      align-items: center;
       margin-bottom: 100px;
+      width: 360px;
     }
 
     p,
     h5,
     h3,
     h2 {
-      margin-left: clamp(0px, 12vw, 220px);
       text-align: left;
     }
   }
