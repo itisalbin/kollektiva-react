@@ -22,6 +22,10 @@ const CreateAd07 = () => {
             <p className="bold">15.000:- i månaden</p>
           </div>
           <div className="gray-box"></div>
+          <p className="mobile-only">Omslagsfoto</p>
+          <img alt="a description" className="supporting-image sup-img-mobile mobile-only" src={Dummy}></img>
+          <p className="mobile-only">Foton på din bostad</p>
+
           <div className="small-image-container">
             <img alt="a description" className="supporting-image" src={Dummy}></img>
             <img alt="a description" className="supporting-image" src={Dummy}></img>
