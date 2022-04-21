@@ -3,7 +3,10 @@ import "./startPage.scss";
 import Button from "../components /Button";
 import UspCard from "../components /UspCard";
 import Image from "../Assets/Images/dummy1.webp";
-import DummyImage from "../Assets/Images/house.png";
+import House from "../Assets/Images/house.png";
+import Split from "../Assets/Images/split.png";
+import Laptop from "../Assets/Images/laptop.jpg";
+import Keys from "../Assets/Images/keys.jpg";
 import ContactCard from "../components /ContactCard";
 import { navigate } from "@reach/router";
 import { BsChevronDown } from "react-icons/bs";
@@ -42,21 +45,21 @@ const StartPage = () => {
             partnerna blir nöjda och glada.
           </p>
         </div>
-        <img src={DummyImage} alt="a house"></img>
+        <img src={House} alt="a house"></img>
       </section>
       <section className="usp-section">
         <h3>Såhär funkar kollektiva</h3>
         <div className="usp-container">
-          <UspCard alt="Alt" text="Skapa en profil som hyresgäst/hyresvärd." uspImage={Image} />
+          <UspCard alt="Alt" text="Skapa en profil som hyresgäst/hyresvärd." uspImage={Split} />
           <UspCard
             alt="Alt"
             text="Ladda upp din bostad som hyresvärd. Anmäl intresse på bostaden du önskar som hyresgäst."
-            uspImage={Image}
+            uspImage={Laptop}
           />
           <UspCard
             alt="Alt"
             text="Matcha med varandra på ett tryggt sätt och flytta in i din nya bostad. "
-            uspImage={Image}
+            uspImage={Keys}
           />
         </div>
       </section>
