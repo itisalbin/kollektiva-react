@@ -51,7 +51,7 @@ const CreateAd07 = () => {
               <li>Djur tillåtet</li>
               <li>Rökning tillåtet</li>
             </ul>
-            <div className="empty-frame"></div>
+            <div className="empty-frame">Beskrivning av boendet</div>
           </div>
           <div className="flex-container-line">
             <div className="line"></div>

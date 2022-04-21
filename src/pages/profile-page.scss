@@ -8,9 +8,6 @@
     margin-bottom: 200px;
   }
 
-  h2 {
-  }
-
   h3 {
     font-size: 1.5rem;
     width: 60%;
@@ -48,10 +45,46 @@
     flex-direction: row;
     gap: 40px;
   }
-  .bottom-card-container {
+  .bottom-cards-container {
     display: flex;
     flex-wrap: wrap;
     gap: 40px;
     max-width: 800px;
+  }
+
+  @media only screen and (max-width: 1050px) {
+    .container {
+      display: flex;
+      justify-content: center;
+    }
+    .content-container {
+      margin: auto;
+    }
+    .menu-container {
+      display: none;
+    }
+
+    .second-card {
+      display: none;
+    }
+
+    .top-cards-container {
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .bottom-cards-container {
+      flex-direction: column;
+      align-items: center;
+      margin-bottom: 100px;
+    }
+
+    p,
+    h5,
+    h3,
+    h2 {
+      margin-left: clamp(0px, 12vw, 220px);
+      text-align: left;
+    }
   }
 }

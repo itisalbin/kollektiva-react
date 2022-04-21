@@ -81,6 +81,7 @@
     }
     ul {
       padding-left: 0;
+      margin-bottom: 0;
     }
     li {
       text-align: left;
@@ -96,11 +97,14 @@
       border: 1px solid black;
       border-radius: 1.5vw;
       align-self: center;
+      text-align: left;
+      padding: 10px 0 0 10px;
     }
   }
 
   .offers-container {
     height: 280px;
+    margin-bottom: 20px;
 
     h3 {
       font-size: clamp(1.2rem, 2vw, 1.5rem);
@@ -130,7 +134,20 @@
     }
 
     .headline-container {
-      display: none;
+      flex-direction: column;
+      justify-content: center;
+      margin-left: 40px;
+      margin-top: 36px;
+
+      p {
+        margin-left: 0;
+      }
+    }
+
+    .headline-container p:nth-child(2),
+    .headline-container p:nth-child(3) {
+      font-weight: normal;
+      font-size: 1rem;
     }
     .small-image-container {
       flex-direction: column;
@@ -169,6 +186,7 @@
     p,
     .mobile-only {
       text-align: left;
+      margin-left: 40px;
     }
   }
 }
